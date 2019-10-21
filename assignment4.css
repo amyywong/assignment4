@@ -1,0 +1,158 @@
+
+#rectangle{
+  position: absolute;
+  background-color: #f9e03c;
+  left: 10%;
+  top: 10%;
+  width: 190px;
+  height: 300px;
+  animation-name: loop;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+#rectangle1{
+  position: absolute;
+  background-color: white;
+  left: 15%;
+  top: 5%;
+  width: 170px;
+  height: 250px;
+  animation-name: loop2;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+#circle{
+  position: absolute;
+  background-color: #df43a1;
+  left: 25%;
+  top: 40%;
+  border-radius: 100px;
+  width: 200px;
+  height: 200px;
+}
+#circle-hole{
+  position: absolute;
+  background-color: white;
+  left: 30%;
+  top: 45%;
+  border-radius: 100px;
+  width: 100px;
+  height: 100px;
+}
+#circle2{
+  position: absolute;
+  background-color: #2cadda;
+  left: 45%;
+  top: 45%;
+  border-radius: 100px;
+  width: 200px;
+  height: 200px;
+}
+#circle-hole2{
+  position: absolute;
+  background-color: white;
+  left: 50%;
+  top: 50%;
+  border-radius: 100px;
+  width: 100px;
+  height: 100px;
+
+}
+#circle-top{
+  position: absolute;
+  background-color: #31e390;
+  border-radius: 100px;
+  width: 150px;
+  height: 150px;
+  left: 65%;
+  top: 10%;
+  animation-name: top-circle-loop;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+#circle-hole3{
+  position: absolute;
+  background-color: white;
+  border-radius: 100px;
+  width: 75px;
+  height: 75px;
+  left: 68%;
+  top: 15%;
+  animation-name: top-circle-loop2;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+#rect-bottom{
+  position: absolute;
+  background-color: #31e390;
+  width: 25px;
+  height: 290px;
+  left: 65%;
+  top: 12%;
+}
+
+@keyframes loop {
+  0% {left: 10%;
+        top: 10%;}
+  25% {left: 30%;
+        top: 30%;}
+  50% {left: 50%;
+        top: 50%;}
+  75% {left: 60%;
+        top: 40%;}
+  100% {left: 80%;
+        top: 10%;}
+}
+
+@keyframes loop2 {
+
+  0% {left: 15%;
+        top: 10%;}
+
+  25% {left: 35%;
+        top: 30%;}
+
+  50% {left: 55%;
+        top: 50%;}
+
+  75% {left: 65%;
+        top: 40%;}
+
+  100% {left: 85%;
+        top: 10%;}
+}
+
+@keyframes top-circle-loop {
+
+  0% {left: 65%;
+        top: 10%;}
+
+  25% {left: 25%;
+        top: 30%;}
+
+  50% {left: 35%;
+        top: 50%;}
+
+  75% {left: 55%;
+        top: 40%;}
+
+  100% {left: 65%;
+        top: 10%;}
+}
+@keyframes top-circle-loop2 {
+
+  0% {left: 68%;
+        top: 15%;}
+
+  25% {left: 28%;
+        top: 35%;}
+
+  50% {left: 38%;
+        top: 55%;}
+
+  75% {left: 58%;
+        top: 45%;}
+
+  100% {left: 68%;
+        top: 15%;}
+}
